@@ -1,0 +1,7 @@
+include ':app', ':libraries-audio', ':libraries-common', ':libraries-commonwidget', ':libraries-core', ':libraries-panowidget', ':libraries-videowidget'
+project(':libraries-audio').projectDir = new File('libraries/audio')
+project(':libraries-common').projectDir = new File('libraries/common')
+project(':libraries-commonwidget').projectDir = new File('libraries/commonwidget')
+project(':libraries-core').projectDir = new File('libraries/core')
+project(':libraries-panowidget').projectDir = new File('libraries/panowidget')
+project(':libraries-videowidget').projectDir = new File('libraries/videowidget')
